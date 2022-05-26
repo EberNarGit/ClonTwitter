@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter_EberNar</title>
     <link rel="stylesheet" href="./src/css/base.css">
+    <script src="https://kit.fontawesome.com/113e552ff3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
 </head>
 <body>
     <header class="header">
-        <span class="header-icon"><i class="fa-brands fa-twitter"></i></a></span>
+        <span class="header-icon"><i class="fa-brands fa-twitter"></i></span>
     </header>
 
     <main class="main">
@@ -23,65 +24,71 @@
                 <h2 class="titles-title">Join Twitter today.</h2>
             </section>
                 
-            <section>
-                <button>
-                    <span>g</span>Sign up with Google
+            <section class="main--buttons">
+                <button class="main--button main--button__Google">
+                    <span><i class="fa-brands fa-google"></i></span>Sign up with Google
                 </button>
-                <button>
-                    <span>a</span>Sign up with Apple
+                <button class="main--button main--button__Apple">
+                    <span class="icon-apple"><i class="fa-brands fa-apple"></i></span>Sign up with Apple
                 </button>
-                <div><span>or</span></div>
-                <button>
-                    <span>c</span>Sign up with phone or email
+                <div class="main--division">
+                    <div class="main--division__left"></div>
+                    <div class="main--division__text">or</div>
+                    <div class="main--division__right"></div>
+                </div>
+                <button class="main--button main--button__Blue">
+                    <span></span>Sign up with phone or email
                 </button>
-                <p>By signing up, you agree to the Terms of 
-                    Service and Privacy Policy, including Cookie Use.
+                <p class="main--text">By signing up, you agree to the 
+                    <a href="https://twitter.com/en/tos">Terms of Service</a>
+                    and
+                    <a href="https://twitter.com/en/privacy">Privacy Policy</a>
+                     , including 
+                     <a href="https://help.twitter.com/en/rules-and-policies/twitter-cookies">Cookie Use.</a>
                 </p>
 
-                <div>
-                    <h3>Already have an account?</h3>
-                    <button>Sign in</button>
+                <div class="main--login">
+                    <h4>Already have an account?</h4>
+                    <button class="main--button main--button__Black">
+                        Sign in
+                    </button>
                 </div>
             </section>
         </section>
 
-        <section>
-            Background
-        </section>
-
-        <footer>
-            <ul>
-                <li>
-                    <a href="">About</a>
-                    <a href="">Help Center</a>
-                    <a href="">Terms of Service</a>
-                    <a href="">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="">Cookie Policy</a>
-                    <a href="">Accessibility</a>
-                    <a href="">Ads info</a>
-                    <a href="">Blog</a>
-                    <a href="">Status</a>
-                    <a href="">Careers</a>
-                </li>
-                <li>
-                    <a href="">Brand Resources</a>
-                    <a href="">Advertising</a>
-                    <a href="">Marketing</a>
-                    <a href="">Twitter for Business</a>
-                </li>
-                <li>
-                    <a href="">Developers</a>
-                    <a href=""> Directory</a>
-                    <a href="">Settings</a>
-                    <a href="">© 2022 Twitter, Inc.</a>
-                </li>
-            </ul>
-        </footer>
-        
+        <section class="main--background">
+            <span><i class="fa-brands fa-twitter"></i></span>
+        </section>    
     </main>
 
+    <footer class="footer">
+        <ul>
+            <li class="footer--list">
+                <a href="">About</a>
+                <a href="">Help Center</a>
+                <a href="">Terms of Service</a>
+                <a href="">Privacy Policy</a>
+            
+                <a href="">Cookie Policy</a>
+                <a href="">Accessibility</a>
+                <a href="">Ads info</a>
+                <a href="">Blog</a>
+                <a href="">Status</a>
+                <a href="">Careers</a>
+            
+                <a href="">Brand Resources</a>
+                <a href="">Advertising</a>
+                <a href="">Marketing</a>
+                <a href="">Twitter for Business</a>
+            
+                <a href="">Developers</a>
+                <a href=""> Directory</a>
+                <a href="">Settings</a>
+                <a href="">© 2022 Twitter, Inc.</a>
+            </li>
+        </ul>
+    </footer>
+
 </body>
-<script src="https://kit.fontawesome.com/113e552ff3.js" crossorigin="anonymous"></script>
+
 </html>
